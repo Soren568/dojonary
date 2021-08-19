@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soren's Dojonary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+<!-- Navigation Bar -->
+        <div class="nav">
+            <h1 class="page_title">Dojonary</h1>
+            <input type="text" name="search_bar" id="SB" placeholder="Search...">
+            <button class="login" onclick="logInOut(this)">Login</button>
+        </div>
+<!-- Main Body -->
+        <div class="content">
+            <div class="left">
+                <div class="card">
+                    <div class="ninja_left">
+                        <h1 class="ninja">ninja</h1>
+                        <p class="noun"><em>noun</em></p>
+                        <p class="plural">Plural: <em>ninjas</em></p>
+                        <button class = "likes" onclick="alert('Ninja was liked')">37 likes</button>
+                    </div>
+                    <p class="ninja_descrip">A practitioner skilled in the <a href="https://en.wikipedia.org/wiki/Japan">Japanese</a> art of <a href="https://en.wikipedia.org/wiki/Naruto">ninjutsu</a></p>
+                </div>
+                <div class="card">
+                    <div class="ninja_left">
+                        <h1 class="ninja">ninja</h1>
+                        <p class="noun">noun</p>
+                        <p class="plural">Plural: <em>ninjas</em></p>
+                        <button class = "likes" onclick="alert('Ninja was liked')">37 likes</button>
+                    </div>
+                    <p class="ninja_descrip">A <a href="https://en.wikipedia.org/wiki/Orangutan">programmer</a> who breaks down problems with <a href="https://en.wikipedia.org/wiki/The_40-Year-Old_Virgin">zen</a>-like focus</p>
+                </div>
+            </div>
+            <div class="right">
+                <div class="card" id="right">
+                    <h3>Dojonary is defined by <strong>YOU</strong></h3>
+                    <button class = "add_def" onclick="disappear(this)">Add Definition</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="buttons.js"></script>
+</html>

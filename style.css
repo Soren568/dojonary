@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: red solid 1px; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* Navigation Bar */
+.nav{
+    display: flex;
+    background-color: gray;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.login{
+    padding: 10px 20px;
+    background-color: cornflowerblue;
+    color: cornsilk;
+    border: black solid 2px;
+    box-shadow: black 3px 3px;
+}
+
+#SB{
+    height: 30px;
+    width: 400px;
+    position: relative;
+    top: 5px;
+}
+/* Body */
+.content{
+    display: flex;
+}
+
+.right{
+    flex: 1;
+}
+
+.left{
+    flex: 3;
+}
+
+/* Cards */
+
+.card{
+    height: 200px;
+    margin: 20px 20px 0px 0px;
+    padding: 15px;
+    border: black solid 2px;
+    display: flex;
+    align-items: center;
+}
+        /* Left Side */
+.ninja_left{
+    text-align: center;
+}
+.noun{
+    margin-bottom: 5px;
+}
+.plural{
+    margin-bottom: 20px;
+}
+.ninja_descrip{
+    padding-left: 15px;
+}
+        /* Right Side */
+#right{
+    flex-direction: column;
+    height: 150px;
+    margin-right: 0px;
+}
+h3{
+    margin-bottom: 20px;
+}
+
+/* Cards Button design */
+
+.likes{
+    padding: 5px 15px;
+    border: black solid 2px;
+    box-shadow: black 2px 2px;
+    background-color: gold;
+}
+
+.add_def{
+    padding: 5px 30px;
+    border: black solid 2px;
+    box-shadow: black 2px 2px;
+    background-color: darkseagreen;
+}
+
+
